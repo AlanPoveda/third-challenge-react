@@ -42,10 +42,7 @@ const Home = (): JSX.Element => {
                     priceFormatted: formatPrice(product.price)
                 }   
            })
-
            setProducts(data);
-
-            
         }
 
         loadProducts();
